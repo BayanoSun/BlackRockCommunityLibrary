@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackRock Library Grand Opening!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Barriecito&family=Dancing+Script&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <title>Newsletter Sign Up</title>
+</head>
+<body>
+    <h1><a href="index.html"><strong><span class="blckrck">BlackRock</span></strong><br>Community Library</a></h1>
+    <h2 class="text-uppercase">newsletter <br>sign up</h2>
+    <hr>
+    <form action="successful.html" method="post">
+        <p>Just need a little bit of info:</p>
+        <div class="lilbitinfo">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Name" aria-label="Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="address@email.com" required>
+            </div>
+        </div>
+        <div class="checkbxs">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="newsAgreement" id="defaultCheck1" required>
+                <label class="form-check-label" for="defaultCheck1">
+                I agree to sign up to the BlackRock Community Library newsletter.
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="termsAgreement" id="defaultCheck1" required>
+                <label class="form-check-label" for="defaultCheck1">
+                    By creating joining the newsletter, I agree to the <a href="">Terms of Service and Privacy Policy</a>. I may unsubscribe at any time.
+                </label>
+            </div>
+        </div>
+            <p> 
+                Last but not least...
+            </p>
+        <label id="memberPlanlbl">
+            How do you plan on interacting with the Library?
+        </label>
+        <p class="tip">**The difference between a Student and a Patron is the Student has a moderate to severe level of involvement in the study groups and programming whereas a Patron takes on a more indirect supporter of the organization.** </p>
+        <select class="form-control form-control-lg planslct" required>
+            <option selected disabled>*Select your Group*</option>
+            <option value="Student_3-6">Youth Student(3-6 y/o)</option>
+            <option value="Student_7-9">Youth Student(7-9 y/o)</option>
+            <option value="Student_10-13">Youth Student(10-13 y/o)</option>
+            <option value="Student_14-17">Youth Student(14-17 y/o)</option>
+            <option value="Patron_3-6">Youth Patron(3-6 y/o)</option>
+            <option value="Patron_7-9">Youth Patron(7-9 y/o)</option>
+            <option value="Patron_10-13">Youth Patron(10-13 y/o)</option>
+            <option value="Patron_14-17">Youth Patron(14-17 y/o)</option>
+            <option value="YoungAdultStudent">Young Adult Student(18-24 y/o)</option>
+            <option value="YoungAdultPatron">Young Adult Patron(18-24 y/o)</option>
+            <option value="AdultStudent">Adult Student(25-34 y/o)</option>
+            <option value="AdultPatron">Adult Patron(25-34 y/o)</option>
+            <option value="MatureAdultStudent">Mature Adult Student(35-64 y/o)</option>
+            <option value="MatureAdultPatron">Mature Adult Patron(35-64 y/o)</option>
+            <option value="ElderStudent">Elder Student(65-79 y/o)</option>
+            <option value="ElderPatron">Elder Patron(65-79 y/o)</option>
+            <option value="GoldenElderStudent">Golden Elder Student(80+)</option>
+            <option value="GoldenElderPatron">Golden Elder Patron(80+)</option>
+            <option value="ApprenticeTeacher">Apprentice Teacher</option>
+            <option value="MasterTeacher">Master Teacher</option>
+            <option value="ApprenticeResearcher">Apprentice Researcher</option>
+            <option value="MasterResearcher">Master Researcher</option>
+        </select>
+        <button type="submit" class="btn btn-dark join" id="joinbttn">Join Now!</button>
+</form>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
